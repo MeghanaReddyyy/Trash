@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F0F4F8; /* Light calming blue */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #FFFFFF; /* Clean white background for the form */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* More pronounced shadow for a premium look */
+  width: 350px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #4A5568; /* Dark greyish-blue for contrast */
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #2D3748; /* Subtle darker color for text */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #CBD5E0; /* Soft grey border */
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #63B3ED; /* Light blue focus outline */
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #3182CE; /* Primary blue color for buttons */
+  color: #FFFFFF;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: #2B6CB0; /* Darker blue on hover */
+  transform: translateY(-3px); /* Slight hover effect */
+}
+
+.signup-prompt {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.signup-prompt a {
+  color: #3182CE; /* Blue for the signup link */
+  text-decoration: none;
+}
+
+.signup-prompt a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 1.5rem 0;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #FFFFFF; /* White background for Google button */
+  color: #333333; /* Dark grey text */
+  font-size: 16px;
+  border: 2px solid #CBD5E0; /* Light grey border */
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.google-btn:hover {
+  border-color: #63B3ED; /* Light blue border on hover */
+}
+
+.google-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
